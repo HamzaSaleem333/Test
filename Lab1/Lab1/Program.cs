@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab1
+namespace ConsoleApplication2
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Cat cat = new Cat();
             Animal animal = new cat();
             animal.walk();
             Console.WriteLine(animal.add(30,20));
