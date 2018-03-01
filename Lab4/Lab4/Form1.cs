@@ -35,8 +35,7 @@ System.Timers.Timer timer;
         }
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
-        {//C:\Users\Taha\Desktop\Twin-bell-alarm-clock-ringing-short.mp3
-            DateTime currentTime =DateTime.Now;
+        {    DateTime currentTime =DateTime.Now;
             DateTime datePickerTime=dateTimePicker1.Value;
              if(currentTime.Hour== datePickerTime.Hour&&
                 currentTime.Minute==datePickerTime.Minute&&
